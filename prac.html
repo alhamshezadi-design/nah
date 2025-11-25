@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Us - Beauty Care</title>
+
+        <style>
+            /* Full Page Background Theme */
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, sans-serif;
+                background: linear-gradient(135deg, #ffe6f0, #ffccf2);
+                color: #333;
+            }
+
+            /* Main Section Box */
+            section {
+                max-width: 1050px;
+                margin: 40px auto;
+                padding: 40px 20px;
+                background: rgba(255, 255, 255, 0.9);
+                border-radius: 20px;
+                box-shadow: 0 8px 30px rgba(255, 105, 180, 0.25);
+            }
+
+            /* Gradient Pink Headings */
+            h1,
+            h2 {
+                background: linear-gradient(90deg, #ff69b4, #ff1493);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            /* ----------------- ABOUT US BOX ----------------- */
+            .about-box {
+                background: linear-gradient(135deg, #ffe6f5, #ffd1e8);
+                padding: 30px;
+                border-radius: 15px;
+                text-align: center;
+                box-shadow: 0 8px 25px rgba(255, 105, 180, 0.3);
+            }
+
+            /* ----------------- TOP BANNER ----------------- */
+            .banner img {
+                width: 100%;
+                max-height: 380px;
+                object-fit: cover;
+                border-radius: 15px;
+                transition: 0.3s ease;
+            }
+
+            .banner img:hover {
+                transform: scale(1.05);
+            }
+
+            /* ----------------- WHO WE ARE ----------------- */
+            .who-box {
+                display: flex;
+                flex-wrap: wrap;
+                background: #fff0f7;
+                border-radius: 20px;
+                padding: 20px;
+                margin-top: 40px;
+                box-shadow: 0px 5px 20px rgba(255, 105, 180, 0.25);
+            }
+
+            .who-box img {
+                width: 100%;
+                border-radius: 15px;
+                box-shadow: 0px 5px 15px rgba(255, 105, 180, 0.4);
+                transition: 0.3s ease;
+            }
+
+            .who-box img:hover {
+                transform: scale(1.05);
+            }
+
+            /* ----------------- OUR MISSION ----------------- */
+            .mission-box {
+                background: #ffe1ef;
+                padding: 30px;
+                border-left: 6px solid #ff1493;
+                border-radius: 10px;
+                margin: 40px 0;
+            }
+
+            /* ----------------- UNIQUE FEATURES ----------------- */
+            .unique-box {
+                background: #fff5fa;
+                padding: 25px;
+                border-radius: 15px;
+            }
+
+            .unique-box li {
+                list-style: none;
+                margin: 10px 0;
+                padding-left: 25px;
+                position: relative;
+                font-size: 18px;
+                transition: 0.3s;
+            }
+
+            .unique-box li::before {
+                content: "✔";
+                position: absolute;
+                left: 0;
+                color: #ff1493;
+            }
+
+            .unique-box li:hover {
+                color: #ff69b4;
+            }
+
+            /* ----------------- OUR PROMISE ----------------- */
+            .promise-box {
+                background: linear-gradient(120deg, #ffd6ea, #ffecf7);
+                padding: 30px;
+                border-radius: 20px;
+                text-align: center;
+                margin-top: 40px;
+                box-shadow: 0 6px 20px rgba(255, 105, 180, 0.25);
+            }
+
+            /* Responsive */
+            @media(max-width:768px) {
+                .who-box {
+                    flex-direction: column;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <section>
+
+            <!-- TOP BANNER -->
+            <div class="banner">
+                <img src="banner-image.jpg" alt="Beauty Care Banner">
+            </div>
+
+            <!-- ABOUT US -->
+            <div class="about-box">
+                <h1>About Us</h1>
+                <p>
+                    Beauty Care delivers clean, effective, and science-backed beauty solutions.
+                    Our products are created to enhance your natural glow and keep your skin healthy and radiant.
+                </p>
+            </div>
+
+            <!-- WHO WE ARE -->
+            <div class="who-box">
+                <div style="flex:1; min-width:300px; padding:20px;">
+                    <h2>Who We Are</h2>
+                    <p>
+                        We are a dedicated team of skincare professionals focused on quality,
+                        safety, and real results. Beauty should be effortless, trustworthy, and available for everyone.
+                    </p>
+                </div>
+
+                <div style="flex:1; min-width:300px; padding:20px;">
+                    <img src="team-image.jpg" alt="Our Team">
+                </div>
+            </div>
+
+            <!-- OUR MISSION -->
+            <div class="mission-box">
+                <h2>Our Mission</h2>
+                <p>
+                    To create premium, skin-friendly beauty products that make your daily routine
+                    simple, confident, and enjoyable.
+                </p>
+            </div>
+
+            <!-- WHAT SETS US APART -->
+            <div class="unique-box">
+                <h2 style="text-align:center;">What Sets Us Apart</h2>
+                <ul>
+                    <li>Dermatologist-inspired formulas</li>
+                    <li>High-quality, trusted ingredients</li>
+                    <li>Modern, minimal, and effective skincare</li>
+                    <li>Customer satisfaction at the core</li>
+                </ul>
+            </div>
+
+            <!-- OUR PROMISE -->
+            <div class="promise-box">
+                <h2>Our Promise</h2>
+                <p>
+                    We deliver beauty you can trust — safe, gentle, and made with care.
+                </p>
+            </div>
+
+        </section>
+
+    </body>
+
+    </html>
+
+</body>
+
+</html>
